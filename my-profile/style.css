@@ -81,19 +81,7 @@ margin: 40px auto;
 /*Custom design with class (99% of your design) */
 .container {
  width: 700px;
- margin: 40px auto;
-}
-
-@media (max-width: 760px) {
-. container {
- width: 600px;
-}
-} 
-
-@media (max-width: 500px) {
-. container {
- width: 400px;
-}
+ margin: 250px;
 }
 
 
@@ -101,6 +89,25 @@ margin: 40px auto;
 .card-white {
 	background-color: white;
 	padding: 40px;
- box-shadow: 0px 10px 30px rgba (0,0,0,0.1)
- border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba (0,0,0,0.1)
+    border-radius: 4px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 50px;
+  padding-left: 25px;
+  background-color: rgb(251, 182, 185);
+  border-color: #6081DB;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
 }
